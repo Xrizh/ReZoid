@@ -12,3 +12,8 @@ Rezoid is a 2D arcade-style collectathon made in Python using the Pygame and Pyg
 ![Rules](https://github.com/Ultra24/ReZoid/blob/main/images/rules.jpg)
 
 ## Installation 
+Use the python package manager [pip](https://pypi.org/project/pip/) to install the [PyGame](https://www.pygame.org/news) and [PyGame Zero](https://pygame-zero.readthedocs.io/en/stable/) libraries.
+```zsh
+pip install pygame
+pip install pgzero
+```
