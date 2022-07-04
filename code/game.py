@@ -37,8 +37,8 @@ pop_can = pygame.image.load("images/popcan.png")
 milk_carton = pygame.image.load("images/milkcarton.png")
 
 #Music
-correct = pygame.mixer.Sound("correct.wav")
-lost_life = pygame.mixer.Sound("lost_life.wav")
+correct = pygame.mixer.Sound("music/correct.wav")
+lost_life = pygame.mixer.Sound("music/lost_life.wav")
 
 # Used to determine colour of rgb menu bars
 c1 = random.randint(125, 255)
@@ -148,7 +148,7 @@ def game(playerImg):
     enemy_vel = 4
     FPS = 60
 
-    pygame.mixer.music.load("bg.wav")
+    pygame.mixer.music.load("music/bg.wav")
     pygame.mixer.music.play(-1)
 
     # Game Menu Bars
@@ -360,7 +360,7 @@ def intro(
                     rules_para2 = ultrasmallfont.render("2. You should move towards recyclable items to collect points.", True, white)
                     rules_para3 = ultrasmallfont.render("3. Use arrow keys to move.", True, white)
                     rules_para4 = ultrasmallfont.render("4. You have three lives when starting off. When you bump into", True, white)
-                    rules_para5 = ultrasmallfont.render("      a garbage, you'll lose a life. If you lose all 3 lives, you lose.", True, white)
+                    rules_para5 = ultrasmallfont.render("      garbage, you'll lose a life. If you lose all 3 lives, you lose.", True, white)
                     screen.blit(rules_para1, (50, 270))
                     screen.blit(rules_para2, (50, 320))
                     screen.blit(rules_para3, (50, 370))
