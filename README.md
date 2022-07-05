@@ -11,6 +11,9 @@ Rezoid is a 2D arcade-style collectathon made in Python using the Pygame and Pyg
 ![Main Menu](https://github.com/Ultra24/ReZoid/blob/main/images/menu.jpg)
 \
 \
+![Compilation Video](https://user-images.githubusercontent.com/62357227/177389138-253a54b2-3a93-4b12-b70d-4270d5842363.mov)
+\
+\
 ![Rules](https://github.com/Ultra24/ReZoid/blob/main/images/rules.jpg)
 
 ## Installation 
