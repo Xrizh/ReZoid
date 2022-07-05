@@ -413,7 +413,7 @@ def intro(
         text = smallfont.render('Start', True, white)
         text1 = smallfont.render('Rules', True, white)
         exit1 = smallfont.render('Exit', True, white)
-        rezoid = bigfont.render('ReZoid', True, (c1, rezoid_c1, rezoid_c2))
+        rezoid = bigfont.render('  ReZoid', True, (c1, rezoid_c1, rezoid_c2))
         screen.blit(rezoid, (100, 75))
         screen.blit(text, (312, 295))
         screen.blit(text1, (312, 365))
