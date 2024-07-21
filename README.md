@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 \
-Rezoid is a 2D arcade-style collectathon made in Python using the Pygame library. It was created as a final project for an introductory level high school computer science course. Its main purpose is to promote recycling in a fun and interactive manner. ReZoid was Co-Developed by Krish Mendapara.
+Rezoid is a 2D arcade-style collectathon made in Python using the Pygame library. It was created as a final project for an introductory level high school computer science course. Its main purpose is to promote recycling in a fun and interactive manner. ReZoid was Co-Developed by Umer Rizwan.
 \
 \
 \
